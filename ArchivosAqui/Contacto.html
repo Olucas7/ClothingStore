@@ -61,29 +61,29 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li>
-              <a class="nav-link scrollto" href="/ArchivosAqui/Inicio.html"
+              <a class="nav-link scrollto" href="Inicio.html"
                 >Inicio</a
               >
             </li>
             <li>
-              <a class="nav-link scrollto" href="/ArchivosAqui/Tienda.html"
+              <a class="nav-link scrollto" href="Tienda.html"
                 >Tienda</a
               >
             </li>
             <li>
-              <a class="nav-link scrollto" href="/ArchivosAqui/Carrito.html"
+              <a class="nav-link scrollto" href="Carrito.html"
                 >Carrito</a
               >
             </li>
             <li>
               <a
                 class="nav-link scrollto active"
-                href="/ArchivosAqui/Contacto.html"
+                href="Contacto.html"
                 >Contacto</a
               >
             </li>
             <li>
-              <a class="nav-link scrollto" href="/ArchivosAqui/Nosotros.html"
+              <a class="nav-link scrollto" href="Nosotros.html"
                 >Nosotros</a
               >
             </li>
@@ -96,77 +96,75 @@
         <!-- .navbar -->
       </div>
     </header>
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact mt-7 ">
+  <div class="container">
 
-    <!-- CONTENIDO AQUI -->
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6467.492594870037!2d-79.79601624485151!3d-2.1682334581413736!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1636152706999!5m2!1ses!2sec" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
+    <div class="row mt-5">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                </div>
-              </div>
-            </div>
-
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Ubicacion:</h4>
+            <p>Guayas,Duran,Recreo,5ta etapa</p>
           </div>
 
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>soporte@k&k.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Telefono:</h4>
+            <p>+593 9885 433 67</p>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+
+      <div class="col-lg-8 mt-5 mt-lg-0">
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Cargando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Su mensaje se ha enviado. gracias!</div>
+          </div>
+          <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+   
+
+    
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -211,7 +209,7 @@
               <h4>Links Utiles</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#hero">Inicio</a>
+                  <i class="bx bx-chevron-right"></i> <a href="Inicio.html">Inicio</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
@@ -219,15 +217,15 @@
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="/ArchivosAqui/Carrito.html">Carrito</a>
+                  <a href="Carrito.html">Carrito</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="/ArchivosAqui/Tienda.html">Catálogo</a>
+                  <a href="Tienda.html">Catálogo</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="/ArchivosAqui/Contacto.html">Contacto</a>
+                  <a href="Contacto.html">Contacto</a>
                 </li>
               </ul>
             </div>
