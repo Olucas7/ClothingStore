@@ -1612,3 +1612,44 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+.riva{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 400px;
+}
+
+#caja1
+{
+  display: grid;
+  margin-top: 90px;
+}
+
+#caja2
+{
+  display: grid;
+  margin-top: 90px;
+  
+  
+  background-color: #EAEAEA;
+}
+
+#botones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.catalogo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.foto{
+  max-height: 100px;
+  max-width: 100px;
+}
+.ajus{
+  clear: both;
+}
+.botonde{
+  text-align: right;
+}
