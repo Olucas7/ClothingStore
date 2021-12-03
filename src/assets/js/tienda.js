@@ -40,3 +40,46 @@ fetch(url)
         }
 
     })
+
+
+    let plantilla2 =  `<tr>
+    <td>
+      <div class="catalogo">
+        <img class="foto" src="link" alt="imagen >
+        
+        <div class="detalles">
+          <p>Nombre</p>
+          <p>Precio</p>
+        </div>
+          
+      </div>
+    </td>
+
+    <td>   1</td>
+    <td>Precio</td>
+
+  </tr>`
+
+function requestCarrito(codigo){
+fetch(url)
+.then(response => response.json())
+.then(data => {
+//  console.log(data["cotizaciones"]);
+for(var i = 0; i < 10; i++){
+
+if(codigo == i){
+ plantilla2 = plantilla2.replaceAll('foto', data[0][i]['RutaImagen']);
+ plantilla2 =plantilla2.replaceAll("nombre", data[0][i]['NombreArticulo']);
+ plantilla2 =plantilla2.replaceAll("precio", data[0][i]["Precio"]);
+}
+
+
+ 
+console.log(plantilla2)
+
+document.getElementById('tablaProductos').innerHTML += plantilla2; 
+}
+ 
+})
+.catch(console.error);
+}
