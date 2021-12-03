@@ -4,62 +4,62 @@
     "Categoria": "hombre",
     "NombreArticulo": "Camisa Rosada Lineas",
     "Precio": 15,
-    "RutaImagen": "assets\/img\/Catalago\/hombre\/hombre1.png"
+    "RutaImagen": "assets\/img\/Catalogo\/hombre\/hombre1.png"
   },
   {
     "Codigo": 2,
     "Categoria": "hombre",
     "NombreArticulo": "Hoodie Marshmellow",
     "Precio": 25,
-    "RutaImagen": "assets\/img\/Catalago\/hombre\/hombre2.png"
+    "RutaImagen": "assets\/img\/Catalogo\/hombre\/hombre2.png"
   },
   {
     "Codigo": 3,
     "Categoria": "hombre",
     "NombreArticulo": "Short Playero Azul-Gris",
     "Precio": 15,
-    "RutaImagen": "assets\/img\/Catalago\/hombre\/hombre3.png"
+    "RutaImagen": "assets\/img\/Catalogo\/hombre\/hombre3.png"
   },
   {
     "Codigo": 4,
     "Categoria": "zapatos",
     "NombreArticulo": "Zapatos Cuero Negro Casuales",
     "Precio": 50,
-    "RutaImagen": "assets\/img\/Catalago\/zapatos\/zapatos4.png"
+    "RutaImagen": "assets\/img\/Catalogo\/zapatos\/zapatos4.png"
   },
   {
     "Codigo": 5,
     "Categoria": "zapatos",
     "NombreArticulo": "Zapatos Nike Negros",
     "Precio": 60,
-    "RutaImagen": "assets\/img\/Catalago\/zapatos\/zapatos5.png"
+    "RutaImagen": "assets\/img\/Catalogo\/zapatos\/zapatos5.png"
   },
   {
     "Codigo": 6,
     "Categoria": "zapatos",
     "NombreArticulo": "Coleccion Zapatos 2021",
     "Precio": 80,
-    "RutaImagen": "assets\/img\/Catalago\/zapatos\/zapatos6.png"
+    "RutaImagen": "assets\/img\/Catalogo\/zapatos\/zapatos6.png"
   },
   {
     "Codigo": 7,
     "Categoria": "mujer",
     "NombreArticulo": "Vestido Enterizo Malika",
     "Precio": 25,
-    "RutaImagen": "assets\/img\/Catalago\/mujer\/mujer7.png"
+    "RutaImagen": "assets\/img\/Catalogo\/mujer\/mujer7.png"
   },
   {
     "Codigo": 8,
     "Categoria": "mujer",
     "NombreArticulo": "Vestido Negro Corto Semi Formal",
     "Precio": 25,
-    "RutaImagen": "assets\/img\/Catalago\/mujer\/mujer8.png"
+    "RutaImagen": "assets\/img\/Catalogo\/mujer\/mujer8.png"
   },
   {
     "Codigo": 9,
     "Categoria": "mujer",
     "NombreArticulo": "Enterizo Lineas Diversos Colores",
     "Precio": 30,
-    "RutaImagen": "assets\/img\/Catalago\/mujer\/mujer9.png"
+    "RutaImagen": "assets\/img\/Catalogo\/mujer\/mujer9.png"
   }
 ]
