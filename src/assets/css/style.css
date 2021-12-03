@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -24,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -116,16 +118,18 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo {
-  font-size: 26px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+
 }
 #header .logo a {
-  color: #0b2341;
+  color: #0e3b5b;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 #header .logo img {
   max-height: 40px;

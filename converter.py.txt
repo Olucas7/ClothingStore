@@ -1,0 +1,5 @@
+import pandas as pd
+
+data= pd.read_excel('BaseTestClothingStore.xlsx')
+
+data.to_json('BaseTestClothingStore-V1.json',orient = 'records')
